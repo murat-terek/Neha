@@ -11,13 +11,13 @@ import './index.styl'
 const MainContent = () => {
 	return pug`
     View.mainContent
-      View
+      View.sidebar
         Search
         Categories
         Colors
         Sizes
         TopRated
-      View
+      View.products
         Products
   `
 }

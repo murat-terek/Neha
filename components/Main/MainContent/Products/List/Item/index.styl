@@ -4,6 +4,15 @@
   box-sizing border-box
   position relative
   width 290px + 4u
+  +tablet()
+    flex-direction row
+    width auto
+    padding 0
+
+.right
+  flex-shrink 1
+  +tablet()
+    margin-left 4u
 
 .imgWrap
   align-items center
@@ -21,6 +30,9 @@
 .img
   width 290px
   height 350px
+  +tablet()
+    width 320px
+    height 366px
 
 .header
   flex-direction row
@@ -31,6 +43,8 @@
   color #191919
   font-size 2.5u
   margin-top 2u
+  +tablet()
+    margin-top 0
 
 .price
   color #b5b5b5

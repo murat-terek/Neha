@@ -12,17 +12,19 @@ const Item = ({ sale, uri, title, price, description }) => {
 
   return pug`
     View.root
-      View.imgWrap
-        if sale
-          Text.sale SALE
-        Image.img(source={ uri })
-      Text.title #{title}
-      Text.price $#{price.toFixed(2)}
-      Text.description #{description}
-      View.btns
-        Button(title='ADD TO CART' onPress=handleClick)
-        View.favorite
-          Favorite
+      View.left
+        View.imgWrap
+          if sale
+            Text.sale SALE
+          Image.img(source={ uri })
+      View.right
+        Text.title #{title}
+        Text.price $#{price.toFixed(2)}
+        Text.description #{description}
+        View.btns
+          Button(title='ADD TO CART' onPress=handleClick)
+          View.favorite
+            Favorite
   `
 }
 

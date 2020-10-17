@@ -20,21 +20,49 @@ const Menu = () => {
             text: 'Fashion',
             href: 'https://google.com/'
           },
+          {
+            text: 'jewellery',
+            href: 'https://google.com/'
+          },
+          {
+            text: 'food & drink',
+            href: 'https://google.com/'
+          },
+          {
+            text: 'Toys & Games',
+            href: 'https://google.com/'
+          },
         ]
         href='https://google.com/'
       ) Home
       Link(
         subLinks=[
           {
-            text: 'Furniture',
+            text: 'about us',
             href: 'https://google.com/'
           },
           {
-            text: 'Electronics',
+            text: 'cart',
             href: 'https://google.com/'
           },
           {
-            text: 'Fashion',
+            text: 'checkout',
+            href: 'https://google.com/'
+          },
+          {
+            text: 'wishlist',
+            href: 'https://google.com/'
+          },
+          {
+            text: 'contact',
+            href: 'https://google.com/'
+          },
+          {
+            text: 'login',
+            href: 'https://google.com/'
+          },
+          {
+            text: 'register',
             href: 'https://google.com/'
           },
         ]
@@ -43,15 +71,67 @@ const Menu = () => {
       Link(
         subLinks=[
           {
-            text: 'Furniture',
+            text: 'grid 3 column',
             href: 'https://google.com/'
           },
           {
-            text: 'Electronics',
+            text: 'grid 5 column',
             href: 'https://google.com/'
           },
           {
-            text: 'Fashion',
+            text: 'grid with sidebar',
+            href: 'https://google.com/'
+          },
+          {
+            text: 'list 1 column',
+            href: 'https://google.com/'
+          },
+          {
+            text: 'list 2 column',
+            href: 'https://google.com/'
+          },
+          {
+            text: 'list with sidebar',
+            href: 'https://google.com/'
+          },
+          {
+            text: 'list 1 column box',
+            href: 'https://google.com/'
+          },
+          {
+            text: 'tab style 1',
+            href: 'https://google.com/'
+          },
+          {
+            text: 'tab style 2',
+            href: 'https://google.com/'
+          },
+          {
+            text: 'tab style 3',
+            href: 'https://google.com/'
+          },
+          {
+            text: 'sticky style',
+            href: 'https://google.com/'
+          },
+          {
+            text: 'sticky style 2',
+            href: 'https://google.com/'
+          },
+          {
+            text: 'gallery style',
+            href: 'https://google.com/'
+          },
+          {
+            text: 'gallery style 2',
+            href: 'https://google.com/'
+          },
+          {
+            text: 'fixed image style',
+            href: 'https://google.com/'
+          },
+          {
+            text: 'fixed image style 2',
             href: 'https://google.com/'
           },
         ]
@@ -60,15 +140,19 @@ const Menu = () => {
       Link(
         subLinks=[
           {
-            text: 'Furniture',
+            text: 'blog',
             href: 'https://google.com/'
           },
           {
-            text: 'Electronics',
+            text: 'blog 2 column',
             href: 'https://google.com/'
           },
           {
-            text: 'Fashion',
+            text: 'blog left sidebar',
+            href: 'https://google.com/'
+          },
+          {
+            text: 'blog details',
             href: 'https://google.com/'
           },
         ]

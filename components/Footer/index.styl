@@ -1,6 +1,40 @@
 .root
   background-color #f5f5f5
   padding 6u 2u
+  +tablet()
+    padding 10u 2u
+  +desktop()
+    padding 10u 6u
+
+.container
+  max-width 720px
+  margin 0 auto
+  flex-wrap wrap
+  flex-direction row
+  align-items center
+  +desktop()
+    max-width auto
+    margin 0
+
+.first
+  width 100%
+  +tablet()
+    width 40%
+  +desktop()
+    width 25%
+
+.second
+  width 100%
+  +tablet()
+    width 60%
+    align-items center
+  +desktop()
+    width 50%
+
+.third
+  width 100%
+  +desktop()
+    width 25%
 
 .txt
   color #585858

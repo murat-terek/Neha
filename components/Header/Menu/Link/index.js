@@ -27,7 +27,7 @@ const Link = ({ subLinks, children, href }) => {
       if isParentLink && open
         View.subLinks
           each link in subLinks
-            BaseLink(href=link.href)
+            BaseLink(href=link.href key=link.text)
               Text.sublink #{link.text}
   `
 }

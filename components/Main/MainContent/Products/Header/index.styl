@@ -1,4 +1,10 @@
 .root
+  +tablet()
+    flex-direction row
+    justify-content space-between
+    align-items center
+  +desktop()
+    align-items flex-start
 
 .searchResults
   color #6c6c6c
@@ -13,6 +19,8 @@
   flex-direction row
   align-items center
   margin-top 3u
+  +tablet()
+    margin-top 0
 
 .grid
   height 3u

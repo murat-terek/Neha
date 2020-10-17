@@ -10,15 +10,19 @@ import './index.styl'
 const Footer = () => {
   return pug`
     View.root
-      Text.txt 20 Years Experience
-      Socials
-      View.logo
-        Logo
-      Menu
-      Line
-      View.copyright
-        Text.txt Copyright © neha 2018. All Right Reserved.
-      Info
+      View.container
+        View.first
+          Text.txt 20 Years Experience
+          Socials
+        View.second
+          View.logo
+            Logo
+          Menu
+          Line
+          View.copyright
+            Text.txt Copyright © neha 2018. All Right Reserved.
+        View.third
+          Info
   `
 }
 

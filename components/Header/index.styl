@@ -3,9 +3,16 @@
   align-items center
   flex-direction row
   z-index 1
+  justify-content space-between
+  +desktop()
+    padding 4u 6u
+
+.desktopMenu
+  display none
+  +desktop()
+    display flex
 
 .headerRight
-  margin-left auto
   flex-direction row
   align-items center
 

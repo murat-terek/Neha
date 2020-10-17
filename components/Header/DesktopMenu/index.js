@@ -3,15 +3,16 @@ import { View } from 'react-native'
 import MenuLink from '../../Base/MenuLink'
 import './index.styl'
 
-const Menu = () => {
+const DesktopMenu = () => {
   return pug`
     View.menu
       MenuLink HOME
       MenuLink ABOUT US
       MenuLink SHOP
-      MenuLink BLOG
       MenuLink PAGES
+      MenuLink BLOG
+      MenuLink CONTACT
   `
 }
 
-export default Menu
+export default DesktopMenu
