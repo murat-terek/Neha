@@ -4,7 +4,7 @@ import './index.styl'
 
 const MenuIcon = ({ open, onPress }) => {
   return pug`
-    View.root
+    View
       TouchableOpacity(onPress=onPress)
         View.menuIcon
           if !open

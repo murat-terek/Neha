@@ -25,7 +25,7 @@ const Link = ({ subLinks, children, href }) => {
               else
                 Text -
       if isParentLink && open
-        View.subLinks
+        View
           each link in subLinks
             BaseLink(href=link.href key=link.text)
               Text.sublink #{link.text}

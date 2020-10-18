@@ -15,8 +15,7 @@ const Footer = () => {
           Text.txt 20 Years Experience
           Socials
         View.second
-          View.logo
-            Logo
+          Logo
           Menu
           Line
           View.copyright

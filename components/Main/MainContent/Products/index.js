@@ -4,7 +4,6 @@ import { View, Text } from 'react-native'
 import Header from './Header'
 import Grid from './Grid'
 import List from './List'
-import './index.styl'
 
 const products = [
   {
@@ -113,7 +112,7 @@ const Products = () => {
   }
 
   return pug`
-    View.root
+    View
       Header(
         view=view
         onClickGrid=handleClickGrid

@@ -6,9 +6,7 @@ import Favorite from '../Favorite'
 import './index.styl'
 
 const Item = ({ sale, uri, title, price, description }) => {
-  const handleClick = () => {
-
-  }
+  const handleClick = () => {}
 
   return pug`
     View.root
