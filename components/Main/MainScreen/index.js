@@ -6,11 +6,12 @@ import './index.styl'
 const MainScreen = () => {
 	return pug`
     View.backImg
-      Text.title Shop
-      View.txt
-        Link(href='https://www.google.com/')
-          Text.menuHome HOME / 
-        Text.menuShop SHOP
+      View.container
+        Text.title Shop
+        View.txt
+          Link(href='https://www.google.com/')
+            Text.menuHome HOME / 
+          Text.menuShop SHOP
   `
 }
 
